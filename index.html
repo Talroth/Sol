@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>First test webpage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="Sol.js"></script> 
+         <script>
+            
+            var start = function() {
+                document.getElementById("result").innerHTML=CurCard(deck,10) + ";" + CurCard(deck,9); 
+               
+            }
+
+        </script>       
+    </head>
+    <body>
+        <div>TODO write content
+            <form>
+            <input type="button" value="Test" name="RunFun" onclick="CreateTbl()"/>
+            </form>
+
+            <p>inner paragraph 2</p>
+            <table id="MainTbl" border="1">
+
+            </table>
+            <br>
+            <br>
+            <table id="SecTbl" border="1">
+
+            </table>
+            <br>
+            <br>
+            <table id="SecTbl2" border="1">
+
+            </table>            
+            <br>
+            <br>
+            <table id="ThrTbl" border="1">
+
+            </table>  
+            <br>
+            <ul id="p1"></ul>
+            <br>
+            <ul id="p2"></ul>
+            <br>
+            <ul id="p3"></ul>
+                        <br>
+            <ul id="p4"></ul>
+                        <br>
+            <ul id="p5"></ul>
+                        <br>
+            <ul id="p6"></ul>
+                        <br>
+            <ul id="p7"></ul>
+            
+            <p id="Top"></p>
+                        <br>
+            <p id="Top2"></p>
+        </div>
+    </body>
+</html>
